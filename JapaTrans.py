@@ -7,7 +7,7 @@ from kivy.uix.textinput import TextInput
 from kivy.uix.dropdown import DropDown
 
 # OpenAI API key
-openai.api_key = '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'
+openai.api_key = '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'
 
 class ProofreaderApp(App):
     def build(self):
@@ -17,7 +17,7 @@ class ProofreaderApp(App):
 
         # Create a dropdown for persona selection
         self.persona_dropdown = DropDown()
-        for persona in ["Stewie", "GTA-V Trevor", "Quagmire"]:
+        for persona in ["Stewie", "GTA-V Trevor", "Quagmire", "Deadpool"]:
             btn = Button(
                 text=persona, 
                 size_hint_y=None, 
